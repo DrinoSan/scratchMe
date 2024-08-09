@@ -15,7 +15,7 @@ local function main()
 
 	vim.api.nvim_buf_set_lines(buf, 0, -1, true, { "-- Welcome to Neovim!", "" })
 
-	vim.api.nvim_win_set_buf(0, buf)
+	--	vim.api.nvim_win_set_buf(0, buf)
 
 	vim.api.nvim_win_set_cursor(0, { vim.api.nvim_buf_line_count(buf), 0 })
 end
