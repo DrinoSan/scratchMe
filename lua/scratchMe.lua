@@ -15,7 +15,7 @@ local function main()
 
 	--	vim.api.nvim_win_set_buf(0, buf)
 
-	vim.api.nvim_win_set_cursor(0, { vim.api.nvim_buf_line_count(buf), 0 })
+	-- vim.api.nvim_win_set_cursor(0, { vim.api.nvim_buf_line_count(buf), 0 })
 end
 
 local function setup()
